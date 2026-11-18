@@ -1,0 +1,74 @@
+{
+  "systems": {
+    "atlassian": {
+      "git": {
+        "atlassian-mcp-server": {
+          "branch": "main",
+          "commit": "352a02b05189e2a958a973867cc6eca365cb8fc3",
+          "url": "https://github.com/atlassian/atlassian-mcp-server.git"
+        }
+      },
+      "npm": {
+        "atlaskit-tokens": {
+          "integrity": "sha512-GbS56ku6zl5LLO//uWX7+yVPAbIRr9Gl214emjcDZOsc1SbcvT0lo3JPP2vc+nRXANlcCehluV+UOVL1FPMgQg==",
+          "name": "@atlaskit/tokens",
+          "tag": "latest",
+          "tarball": "https://registry.npmjs.org/@atlaskit/tokens/-/tokens-20.14.0.tgz",
+          "version": "20.14.0"
+        }
+      },
+      "tree_sha256": "af9e2eb63ac0b9623af570c39658873f9500f7f6010124b937a56f770633de3b"
+    },
+    "coss-ui": {
+      "git": {
+        "cal-sans": {
+          "branch": "main",
+          "commit": "06c9819281db8f1bdae17e3d3ed359b09e56fbfc",
+          "url": "https://github.com/calcom/sans.git"
+        },
+        "coss": {
+          "branch": "main",
+          "commit": "b2336c45f2b7355c42678ce786b6f14d62b819be",
+          "url": "https://github.com/cosscom/ui.git"
+        },
+        "paper-mono": {
+          "branch": "main",
+          "commit": "74fc5537cc1f7b39aa8cccfa7dd3822e17143cca",
+          "url": "https://github.com/paper-design/paper-mono.git"
+        }
+      },
+      "tree_sha256": "90c5d9e844a0df0aea5c36243490daff131f5f37ae76cece9ca499883f1c8ff5"
+    },
+    "heroui": {
+      "git": {
+        "heroui": {
+          "branch": "v3",
+          "commit": "e195c930d7600b75629652490e1ed57b4d6a1b14",
+          "url": "https://github.com/heroui-inc/heroui.git"
+        }
+      },
+      "tree_sha256": "ee3b8f124f299cdf6c9a398f0e7d845639c50319f54cb832c8eb0ccba7f47c87"
+    },
+    "radix": {
+      "git": {
+        "colors": {
+          "branch": "main",
+          "commit": "dbdb85470547c7d34b9001f48fddb08ded335979",
+          "url": "https://github.com/radix-ui/colors.git"
+        },
+        "themes": {
+          "branch": "main",
+          "commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+          "url": "https://github.com/radix-ui/themes.git"
+        },
+        "website": {
+          "branch": "main",
+          "commit": "402e749613ab2e7ab7139c65b0029842b0360f07",
+          "url": "https://github.com/radix-ui/website.git"
+        }
+      },
+      "tree_sha256": "e0776f4423a96f07cfe5758f53b2a070afe2465542d2360e9ab115675cdaec12"
+    }
+  },
+  "version": 1
+}

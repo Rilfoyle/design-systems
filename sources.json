@@ -1,0 +1,113 @@
+{
+  "systems": {
+    "coss-ui": {
+      "git": [
+        {
+          "id": "coss",
+          "url": "https://github.com/cosscom/ui.git",
+          "branch": "main",
+          "paths": [
+            "LICENSE",
+            "apps/ui/skills/coss",
+            "apps/ui/content/docs",
+            "apps/ui/registry/default",
+            "apps/ui/registry/registry-styles.ts",
+            "apps/ui/public/r/style.json",
+            "apps/ui/public/r/colors-neutral.json",
+            "packages/ui/src/styles",
+            "packages/ui/src/fonts"
+          ]
+        },
+        {
+          "id": "cal-sans",
+          "url": "https://github.com/calcom/sans.git",
+          "branch": "main",
+          "paths": [
+            "OFL.txt",
+            "README.md"
+          ]
+        },
+        {
+          "id": "paper-mono",
+          "url": "https://github.com/paper-design/paper-mono.git",
+          "branch": "main",
+          "paths": [
+            "LICENSE.txt"
+          ]
+        }
+      ]
+    },
+    "radix": {
+      "git": [
+        {
+          "id": "themes",
+          "url": "https://github.com/radix-ui/themes.git",
+          "branch": "main",
+          "paths": [
+            "LICENSE",
+            "packages/radix-ui-themes"
+          ]
+        },
+        {
+          "id": "colors",
+          "url": "https://github.com/radix-ui/colors.git",
+          "branch": "main",
+          "paths": [
+            "LICENSE",
+            "README.md",
+            "package.json",
+            "src"
+          ]
+        },
+        {
+          "id": "website",
+          "url": "https://github.com/radix-ui/website.git",
+          "branch": "main",
+          "paths": [
+            "LICENSE",
+            "data/themes/docs",
+            "data/colors/docs"
+          ]
+        }
+      ]
+    },
+    "heroui": {
+      "git": [
+        {
+          "id": "heroui",
+          "url": "https://github.com/heroui-inc/heroui.git",
+          "branch": "v3",
+          "paths": [
+            "LICENSE",
+            "skills/heroui-react",
+            "packages/styles",
+            "packages/react",
+            "apps/docs/content/docs/en/react",
+            "apps/docs/src/demos/en",
+            "apps/docs/public/react/DESIGN.md"
+          ]
+        }
+      ]
+    },
+    "atlassian": {
+      "git": [
+        {
+          "id": "atlassian-mcp-server",
+          "url": "https://github.com/atlassian/atlassian-mcp-server.git",
+          "branch": "main",
+          "paths": [
+            "LICENSE",
+            "skills/atlassian-design"
+          ]
+        }
+      ],
+      "npm": [
+        {
+          "id": "atlaskit-tokens",
+          "name": "@atlaskit/tokens",
+          "tag": "latest"
+        }
+      ]
+    }
+  }
+}
