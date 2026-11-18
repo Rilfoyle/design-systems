@@ -15,7 +15,7 @@
 
 ## 在其他项目使用
 
-先克隆本仓库。下面的命令将所选**官方 Skill 原样复制**到已有项目的 `.agents/skills/`；不会安装依赖，也不会覆盖已有文件。需要 Python 3.10+。
+先克隆本仓库。下面的命令将所选**官方 Skill 原样复制**到已有项目的 `.agents/skills/`；不会安装依赖，也不会覆盖已有文件。coss 和 Atlassian 的 Skill 副本还会附带对应上游仓库的原版许可证。需要 Python 3.10+。
 
 ```bash
 python3 scripts/use.py coss-ui /path/to/project
